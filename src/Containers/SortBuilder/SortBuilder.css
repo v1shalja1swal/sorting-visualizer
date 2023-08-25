@@ -1,0 +1,37 @@
+.bar {
+    /* width: 4px; */
+    /* background-color: aqua ; */
+    display: inline-block;
+    margin: 0 0.5px;
+    border-top: 0.1px solid;
+}
+
+.main-heading {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.container {
+    background-color: hsl(267, 22%, 18%);
+    border-radius: 15px;
+    /* background-color: hsl(267, 54%, 41%); */
+    width: 80%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    border: 5px solid black;
+    margin: 2%;
+}
+
+.main-container {
+    background-color: hsl(267, 22%, 18%);
+    width: 100%;
+    min-width: 1500px;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
